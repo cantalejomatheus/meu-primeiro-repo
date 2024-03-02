@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .card {
+            background-color: aliceblue; 
+            width: 500px; 
+            height: fit-content; 
+            border: 3px solid black; 
+            border-radius: 25px; 
+            margin: 10px;
+        }
+
+        .card-imagem {
+            width: 100px; 
+            border-radius: 50%;
+        }
+
+        .card-imagem img {
+            width: 70%;
+            height: 70%;
+        }
+
+        .card-mensagem span {
+            font-style: italic;
+            font-weight: bold;
+            color: #b11a1a;
+        }
+
+        .card-titulo span {
+            font-size: 35px;
+            font-family: monospace;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>css interno</h1>
+    <div class="card"> 
+        <div class= "card-imagem">
+            <img src="woman-png.png">
+        </div>
+        <div>
+            <h1 class="card-titulo">
+                <span style = "font-size: 35px;">
+                    Meu nome é: <span class="card-titulo-nome">Adriana</span>
+                </span>
+            </h1>
+            <p>
+                <span class="card-mensagem">
+                    Mensagem: <span>A vida não é um morango! E tá tudo bem</span>
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-imagem">
+            <img src="man-png.png">
+        </div>
+        <div>
+            <h1 class="card-titulo">
+                <span style="font-size: 35px; font-family: monospace;">
+                    Meu nome é: <span class="card-titulo-nome">Fábio</span>
+                </span>
+            </h1>
+            <p>
+                <span class="card-mensagem">
+                    Mensagem: <span>Ser ou não ser, eis a questão</span>
+                </span>
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
